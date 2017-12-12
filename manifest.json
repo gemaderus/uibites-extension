@@ -14,7 +14,22 @@
     "js": ["vendor/jquery-3.2.1.min.js", "content.js"]
   }
   ],
-  "browser_action": {
-    "default_icon": "images/icon.png"
-  }
+  "icons": {
+    "16": "images/icon_32.png",
+    "32": "images/icon_64.png",
+    "48": "images/icon_96.png"
+   },
+   "browser_action": {
+    "default_icon": "images/icon_38.png",
+    "default_title": "Save to UIBites"
+   },
+   "web_accessible_resources": [
+      "styles/uibites.css",
+      "html/login.html",
+      "html/card.html"
+    ],
+    "permissions": [
+      "http://localhost:4200/",
+      "storage"
+    ]
 }
