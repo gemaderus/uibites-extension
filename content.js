@@ -10,7 +10,7 @@ const SELECTION = 'ui-bites-extension-selection';
 const CSS = 'ui-bites-extension-css';
 const IMAGE = 'ui-bites-extension-preview';
 const LOGOUT = 'ui-bites-extension-logout';
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'https://uibites.herokuapp.com/';
 
 let selectionElement;
 let startPos;
