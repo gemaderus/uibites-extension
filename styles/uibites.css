@@ -1,78 +1,151 @@
-.ui-bites-extension-container {
+#ui-bites-extension button {
+  border: 0;
+  box-shadow: none;
+}
+
+#ui-bites-extension #ui-bites-extension-preview {
+  margin-bottom: 20px;
+}
+#ui-bites-extension #ui-bites-extension-preview img {
+  max-width: 100%;
+}
+
+#ui-bites-extension.ui-bites-extension-container {
   box-sizing: border-box;
   background-color: #fff;
   bottom: 0;
   font-family: sans-serif;
   font-size: 16px;
   max-width: 300px;
-  padding: 20px;
   position: fixed;
   right: 0;
   top: 0;
   width: 100%;
   z-index: 9999999;
+  color: #282A36;
+  box-shadow: -3px 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.input-forms {
+#ui-bites-extension.ui-bites-extension-container,
+#ui-bites-extension .ui-bites-extension-card {
+  color: #282A36;
+}
+
+#ui-bites-extension .form-title {
+  margin: 0 0 30px;
+}
+
+#ui-bites-extension #ui-bites-extension-logout {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  font-size: 11px;
+  text-shadow: none;
+  color: #3123AE;
+  cursor: pointer;
+}
+
+#ui-bites-extension .title-extension {
+  margin: 0;
+}
+
+#ui-bites-extension input[type="text"] {
+  box-shadow: none;
+}
+
+#ui-bites-extension .input-forms-extension {
   border: 1px solid #E6E9EE;
-  padding: 1.1rem;
-  font-size: 1.4rem;
+  padding: 11px;
+  font-size: 14px;
   outline: none;
   border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: none;
 }
 
-.form-basic-container {
-  height: calc(100vh - 132px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 0 2rem;
+#ui-bites-extension .form-extension {
+  padding: 20px;
 }
 
-.form-basic {
-  width: 100%;
+#ui-bites-extension .form-group-extension {
+  margin-bottom: 30px;
+  text-align: left;
 }
 
-.form-basic label, input {
+#ui-bites-extension .form-group-extension label {
+  color: #444;
   display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
 }
 
-label {
+#ui-bites-extension .form-group-extension textarea {
+  resize: none;
+  height: 100px;
+}
+
+#ui-bites-extension .header-extension {
+  background-color: #3123AE;
+  padding: 20px;
+  background-image: linear-gradient(-134deg, #C96DD8 0%, #3023AE 100%);
+}
+
+#ui-bites-extension .font-pink {
+  color: #FF6AC1;
+}
+
+#ui-bites-extension .font-light {
+  color: #F1F1F0;
+}
+
+
+/*.form-basic label, input {
+  display: block;
+}*/
+
+/*label {
   margin-bottom: 20px;
-}
+}*/
 
-.form-basic label {
+/*.form-basic label {
   margin-bottom: 1.6rem;
-}
+}*/
 
-.btn {
+#ui-bites-extension .btn {
   background-color: none;
   border: none;
   outline: none;
   cursor: pointer;
 }
 
-.btn-base {
+#ui-bites-extension .btn-base {
   border-radius: 4px;
   text-transform: uppercase;
-  padding: 1.2rem;
-  font-size: 1.4rem;
+  padding: 12px;
+  font-size: 14px;
 }
 
-.btn-pink {
+#ui-bites-extension .btn-pink {
   background: #FF6AC1;
   color: #F1F1F0;
   transition: background-color 0.3s ease;
 }
 
-.btn-pink:hover,
-.btn-pink:active {
+#ui-bites-extension .btn-pink:hover,
+#ui-bites-extension .btn-pink:active,
+#ui-bites-extension .btn-pink:focus {
   background-color: #FF43BD;
 }
 
-.full {
+#ui-bites-extension .full {
   width: 100%;
+}
+
+#ui-bites-extension .uppercase {
+  text-transform: uppercase;
+}
+
+#ui-bites-extension .fs-ex {
+  font-size: 14px;
 }

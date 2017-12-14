@@ -28,8 +28,11 @@
       "html/login.html",
       "html/card.html"
     ],
-    "permissions": [
-      "http://localhost:4200/",
-      "storage"
-    ]
+   "permissions": [
+      "storage",
+      "tabs",
+      "activeTab",
+      "http://*/*",
+      "https://*/*"
+   ]
 }
